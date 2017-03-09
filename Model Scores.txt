@@ -1,0 +1,43 @@
+Best Scores for each Model:
+
+Bernoulli NB:
+	uni
+		standard - 486/600	0.81
+		K Best - 490/600 	0.825 (k = 600)
+		FPR - 489/600		0.815 (alpha = 0.14)
+
+	uni w/o negation
+		standard - 495/600	0.825
+		K Best - 500/600	0.833 (k = 600)
+		FPR - 493/600		0.822 (alpha = 0.14)
+
+	bi
+		standard - 488/600	0.813
+		K Best - 499/600	0.832 (k = 1050)
+		FPR - 495/600		0.825 (alpha = 0.17)
+
+	bi w/o negation
+		standard - 493/600	0.822
+		K Best - 499/600	0.832 (k = 600)
+		FPR - 495/600		0.825 (alpha = 0.23)
+
+Multinomial NB:
+	uni
+		standard - 486/600	0.81
+		K Best - 492/600	0.82 (k = 600)
+		FPR - 487/600		0.812 (alpha = 0.18)
+
+	uni w/o negation
+		standard - 495/600	0.825
+		K Best - 497/600	0.828 (k = 1300)
+		FPR - 490/600		0.817 (alpha = 0.16)
+
+	bi
+		standard - 493/600	0.822
+		K Best - 495/600 	0.825 (k = 900)
+		FPR - 491/600 		0.818 (alpha = 0.16)
+
+	bi w/o negation
+		standard - 495/600	0.825
+		K Best - 499/600	0.832 (k = 900)
+		FPR - 493/600		0.822 (alpha = 0.16)
